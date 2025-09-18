@@ -13,6 +13,27 @@ body {
 	}
 }
 
+        /* Estilo personalizado para el efecto de superposición */
+        .image-card .image-description {
+            /* Mueve la descripción hacia abajo, fuera de la vista */
+            transform: translateY(100%);
+            transition: transform 0.4s ease-in-out;
+        }
+
+        .image-card:hover .image-description {
+            /* Trae la descripción de vuelta a la vista al pasar el mouse */
+            transform: translateY(0);
+        }
+
+        /* Pequeño efecto de zoom en la imagen al pasar el mouse */
+        .image-card img {
+            transition: transform 0.3s ease;
+        }
+
+        .image-card:hover img {
+            transform: scale(1.05);
+        }
+    
 #page {
 	position: relative;
 	transition: 1s all ease-in-out;
@@ -192,4 +213,5 @@ header.sticky {
 	font-weight: 700;
 	letter-spacing: 1px;
 	padding: 20px;
+
 }
