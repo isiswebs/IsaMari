@@ -215,3 +215,51 @@ header.sticky {
 	padding: 20px;
 
 }
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+	
+}
+    
+
+.div2 {
+    grid-column: span 3 / span 3;
+	border-radius: 15px;
+}
+
+.div3 {
+    grid-row-start: 2;
+	border-radius: 15px;
+}
+
+.div4 {
+    grid-column: span 3 / span 3;
+    grid-row-start: 2;
+	border-radius: 15px;
+}
+
+.div5 {
+    grid-row-start: 3;
+	border-radius: 15px;
+}
+
+.div6 {
+    grid-column: span 3 / span 3;
+    grid-row-start: 3;
+	border-radius: 15px;
+}
+
+.div7 {
+    grid-row-start: 4;
+	border-radius: 15px;
+}
+
+.div8 {
+    grid-column: span 3 / span 3;
+    grid-row-start: 4;
+	border-radius: 15px;
+}
+        
