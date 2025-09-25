@@ -224,24 +224,33 @@ header.sticky {
     
 .div1 {
     grid-row: span 2 / span 2;
+	background-color:#51f7c4 ;
+	border-radius: 20px;
 }
 
 .div2 {
     grid-column: span 2 / span 2;
     grid-row: span 2 / span 2;
+	background-color:#51f7c4 ;
+	border-radius: 20px;
 }
 
 .div6 {
     grid-row: span 2 / span 2;
     grid-row-start: 3;
+	background-color:#51f7c4 ;
+	border-radius: 20px;
 }
 
 .div8 {
     grid-column: span 2 / span 2;
     grid-row: span 2 / span 2;
     grid-row-start: 3;
+	background-color:#51f7c4;
+	border-radius: 20px;
 }
         
 
         
+
 
