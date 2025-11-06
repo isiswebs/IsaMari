@@ -172,6 +172,7 @@ header.sticky {
 		transform: scale(.8);
 		opacity: 0;
 		transition-delay: 0.5s;
+		text-align: center;
 	}
 	nav {
 		top: 20px;
@@ -252,6 +253,7 @@ header.sticky {
         
 
         
+
 
 
 
